@@ -15,7 +15,6 @@
 #nft-theme h2 {
     color: #FFFEFE;
     font-weight: 700;
-    
 }
 
 #hero-text {
@@ -49,6 +48,11 @@
     background-color: #8787D9;
     color: #E5E5E5;
     border: none;
+}
+
+#hero-block {
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
 
 #testimonials {
@@ -90,13 +94,19 @@
     display: block;
     width: 100%;
     height: auto;
-  }
+}
   
-  .overlay-text {
+.overlay-text {
     position: absolute;
     top: 50%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
     color: #FFFFFF; 
     text-align: center;
-  }
+}
+
+@media screen and (max-width: 800px) {
+    #customer-grandparent {
+        width: 100%;
+    }
+}
