@@ -1,0 +1,102 @@
+#nft-theme {
+    background-color: #00003D;
+    background-size: contain;
+    background-image: url(/images/background-shade.png);
+    background-repeat: no-repeat;
+    color: #FFFEFE;
+    font-family: 'Outfit', sans-serif;
+}
+
+#nft-theme h1 {
+    color: #FFFEFE;
+    font-weight: 700;
+}
+
+#nft-theme h2 {
+    color: #FFFEFE;
+    font-weight: 700;
+    
+}
+
+#hero-text {
+    color: #FFFEFE;
+}
+
+#nft-theme a{
+    color: #FFFEFE;
+}
+
+#nft-theme span {
+    color: #FFFFFF;
+}
+
+#nft-theme li {
+    color: #FFFFFF;
+}
+
+#primary-button {
+    background-color: #8787D9;
+    color: #E5E5E5;
+    border: none;
+}
+
+#second-button {
+    border-color: #95D4D5;
+    color: #E5E5E5;
+}
+
+#third-button {
+    background-color: #8787D9;
+    color: #E5E5E5;
+    border: none;
+}
+
+#testimonials {
+    color: #AAD9D9;
+}
+
+#customer-box {
+    background-color: #2C2660;
+}
+
+#olivia {
+    color: #AAD9D9;
+}
+
+.logo-container {
+    background-color: #322B65;
+}
+
+#customer-grandparent {
+    width: 400px;
+    height: 500px;
+    position: relative;
+    background-color: transparent;
+}
+
+#customer-box {
+    position: absolute;
+    height: 50px;
+    bottom:0px;
+}
+
+#customer-img {
+    position: absolute;
+    top: -50px;
+    right: 130px;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: #FFFFFF; 
+    text-align: center;
+  }
